@@ -1,0 +1,8 @@
+/* adblock.css */
+iframe[src*="ad"], [src*="ad"], [href*="ad"], [class*="ad"], [id*="ad"], [alt*="ad"],
+iframe[src*="banner"], [src*="banner"], [href*="banner"], [class*="banner"], [id*="banner"], [alt*="banner"],
+iframe[src*="sponsor"], [src*="sponsor"], [href*="sponsor"], [class*="sponsor"], [id*="sponsor"], [alt*="sponsor"],
+iframe[src*="popup"], [src*="popup"], [href*="popup"], [class*="popup"], [id*="popup"], [alt*="popup"],
+iframe[src*="ads"], [src*="ads"], [href*="ads"], [class*="ads"], [id*="ads"], [alt*="ads"] {
+    display: none !important;
+}
